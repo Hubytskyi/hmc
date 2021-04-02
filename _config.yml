@@ -1,0 +1,25 @@
+title: HMC - новини криптовалюти
+name: HMC
+description: 
+
+themecolor: '#0a0a0a'
+imagehome: img/hmc.jpg
+url: 'http://hmc.com.ua'
+baseurl: '/' # the subpath of your site, e.g. /blog
+
+plugins: [jekyll-paginate-v2]
+category_dir: blog
+pagination:
+  enabled: true
+  per_page: 9
+  title: ':title - Сторінка :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+exclude: ['node_modules', 'guldfile.js', 'package.json', 'package-lock.json', 'js/common.js', 'npm-debug.log', '**/Thumbs.db', 'libs', 'sass', '**/*.DS_Store']
+
+copyright: Копіювання контента і розміщення на інших сайтах заборонено.
