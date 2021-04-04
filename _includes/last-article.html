@@ -3,14 +3,14 @@
 	<div class="lb-list">
 
 		<div class="lb-item">
-			<a href="blog/bitcoin/" class="lb-catname">Bitcoin</a>
+			<a href="hmc/blog/bitcoin/" class="lb-catname">Bitcoin</a>
 			<div class="lb-body">
 
 				{% for post in site.categories.bitcoin limit:1 offset: 0%}
-				<a href="{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
+				<a href="/hmc/{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
 				<div class="lb-footer">
 					<div class="item-comments" title="Кількість коментарів">
-						<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+						<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 						<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 					</div>
 				</div>
@@ -20,14 +20,14 @@
 		</div>
 
 		<div class="lb-item">
-			<a href="blog/crypto/" class="lb-catname">Криптовалюта</a>
+			<a href="hmc/blog/crypto/" class="lb-catname">Криптовалюта</a>
 			<div class="lb-body">
 
 				{% for post in site.categories.crypto limit:1 offset: 1%}
-				<a href="{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
+				<a href="/hmc/{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
 				<div class="lb-footer">
 					<div class="item-comments" title="Кількість коментарів">
-						<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+						<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 						<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 					</div>
 				</div>
@@ -41,10 +41,10 @@
 			<div class="lb-body">
 
 				{% for post in site.categories.mining limit:1 offset: 2%}
-				<a href="{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
+				<a href="/hmc/{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
 				<div class="lb-footer">
 					<div class="item-comments" title="Кількість коментарів">
-						<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+						<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 						<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 					</div>
 				</div>
@@ -58,10 +58,10 @@
 			<div class="lb-body">
 
 				{% for post in site.categories.blockchain limit:1 offset: 3%}
-				<a href="{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
+				<a href="/hmc/{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
 				<div class="lb-footer">
 					<div class="item-comments" title="Кількість коментарів">
-						<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+						<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 						<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 					</div>
 				</div>
@@ -75,10 +75,10 @@
 			<div class="lb-body">
 
 				{% for post in site.categories.ico limit:1 offset: 4%}
-				<a href="{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
+				<a href="/hmc/{{ post.url }}" class="lb-item-header">{{ post.title }}</a>
 				<div class="lb-footer">
 					<div class="item-comments" title="Кількість коментарів">
-						<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+						<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 						<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 					</div>
 				</div>
