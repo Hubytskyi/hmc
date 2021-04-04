@@ -8,8 +8,8 @@ RewriteEngine On
 # SetEnvIf X-Forwarded-Proto https HTTPS=on
 
 RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} www.hmc.com.ua [NC]
-RewriteRule (.*) https://hmc.com.ua/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} www.hubytskyi.github.io/hmc/ [NC]
+RewriteRule (.*) https://hubytskyi.github.io/hmc/$1 [R=301,L]
 
 RewriteCond %{HTTP_USER_AGENT} wget [NC]
 RewriteRule .* - [F]

@@ -4,7 +4,7 @@ description:
 
 themecolor: '#0a0a0a'
 imagehome: img/hmc.jpg
-url: 'http://hmc.com.ua'
+url: 'https://hubytskyi.github.io/hmc/'
 baseurl: '/' # the subpath of your site, e.g. /blog
 
 plugins: [jekyll-paginate-v2]

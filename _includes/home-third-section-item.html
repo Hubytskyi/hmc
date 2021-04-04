@@ -1,14 +1,14 @@
 <div class="col-md-3">
 	<div class="col-item col-item-dark">
-		<a href="/hmc/{{ post.url }}">
-			<img src="/hmc/{{ post.thumb }}" alt="{{ post.title }}" class="img-responsive img-width overlay" title="{{ post.title }}">
+		<a href="{{ post.url }}">
+			<img src="{{ post.thumb }}" alt="{{ post.title }}" class="img-responsive img-width overlay" title="{{ post.title }}">
 			<div class="col-item-meta">
 				<div class="item-comments" title="Кількість коментарів">
 					<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
-					<i class="fa fa-comments"></i><a href="/hmc/{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+					<i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
 				</div>
 			</div>
-			<h4><a href="/hmc/{{ post.url }}">{{ post.title }}</a></h4>
+			<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 		</a>
 	</div>
 </div>
